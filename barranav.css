@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Barra {
+
+    background-color: #0086F2;
+    color: white;
+
+}
+
+.barraone ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    list-style: none;
+    font: none;
+    color: white;
+    
+}
+
+.barraone a {
+color: white;
+}
+
+.barraone a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+.search-container {
+    padding: 10px 15px;
+    outline: none
+
+}
+
+.input1 {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.button1 {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.button1:hover {
+    background-color: #003d80;
+}
+
+
+   
+.dropdown li {
+     position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown:hover ul {
+    display: block;
+  
+    
+}
+
+.dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+
+}
+
+
+.dropdown ul li {
+    display: block;
+}
+
+.dropdown ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+
+.dropdowntwo ul {
+display: none;
+background-color: aliceblue;
+}
+
+
+.dropdowntwo ul li {
+   display: block;
+   padding: 10px;
+   color: black;
+}
+
+.dropdowntwo:hover ul {
+    display: block;
+    position: absolute;
+}
+.dropdowntwo ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
