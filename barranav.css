@@ -127,3 +127,64 @@ background-color: aliceblue;
     background-color: aliceblue;
 }
 
+.img-perro {
+    width: 80px;
+    height: 80px;
+    
+}
+.img-huella {
+    width: 100px;
+    height: 150px;
+    
+}   
+.img-gato {
+    width: 80px;
+    height: 80px;
+}
+
+.ganado {
+    width: 80px;
+    height: 80px;               
+}
+
+.dropdownthree ul {
+    display: none;
+    
+}   
+
+.dropdownthree:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.dropdownthree ul li {
+    display: block;
+    padding: 10px;
+    color: black;
+    background-color: aliceblue;
+}
+.dropdownthree ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.img-iniciar-sesion {
+    width: 80px;
+    height: 80px;
+    border-right: 20px;
+}
+
+.img-carrito {
+    width: 80px;
+    height: 80px;
+    border-right: 20px;
+    margin-right: 50px;
+}
+
+.img-huella {
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
