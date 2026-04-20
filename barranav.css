@@ -188,3 +188,8 @@ background-color: aliceblue;
     margin-left: 20px;
     margin-bottom: 80px;
 }
+
+.Titulo {
+    padding-right: 20px;
+    font-family: cursive; 
+}
