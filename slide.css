@@ -40,3 +40,17 @@
     background-size: auto;
     padding-top: 200px;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .barraone ul {
+        flex-direction: column;
+    }
+}
+
+
+.carruselmain img {
+    border-radius: 20px;
+}
