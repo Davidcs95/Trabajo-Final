@@ -24,3 +24,41 @@ img {
 .selectoresmain div {
  padding-right: 40px;
 }
+
+.form1 {
+
+padding-top: 20px;
+display: flex;
+flex-direction: column;
+}
+
+h4 {
+    padding-bottom: 15px;
+    color: #49944B;
+}
+.form1 button {
+    width: 100px;
+    height: 30px;
+    background-color: #49944B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px   ;
+}
+
+@media (max-width: 768px) {
+    .selectoresmain {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .selectoresmain div {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .form1 {
+       align-items: center;
+    }   
+}

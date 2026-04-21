@@ -35,9 +35,10 @@ color: white;
 .search-container {
     display: flex;
     justify-content: center;
+    max-height: 80px;
 }
 .search-container {
-    padding: 8px 10px;
+    padding: 8px 8px;
     outline: none
 
 }
@@ -128,23 +129,23 @@ background-color: aliceblue;
 }
 
 .img-perro {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     
 }
 .img-huella {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     
 }   
 .img-gato {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 .ganado {
-    width: 50px;
-    height: 50px;               
+    width: 40px;
+    height: 40px;               
 }
 
 .dropdownthree ul {
@@ -172,14 +173,14 @@ background-color: aliceblue;
 }
 
 .img-iniciar-sesion {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-right: 20px;
 }
 
 .img-carrito {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-right: 20px;
     margin-right: 50px;
 }
@@ -193,3 +194,11 @@ background-color: aliceblue;
     padding-right: 80px;
     font-family: cursive; 
 }
+.Titulo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
