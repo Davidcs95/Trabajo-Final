@@ -201,4 +201,6 @@ background-color: aliceblue;
     border-radius: 50%;
 }
 
-
+.barraone a:hover {
+    color: #03029E;
+}

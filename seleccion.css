@@ -1,9 +1,10 @@
 h3 {
-    text-align: center;
-    margin-top: 20px;
+    
+    margin-top: 60px;
     color: #49944B;
     padding-top: 20px;
     margin-bottom: 40px;
+    
 }
 
 .selectoresmain {
@@ -30,10 +31,12 @@ img {
 padding-top: 20px;
 display: flex;
 flex-direction: column;
+margin-bottom: 40px;
 }
 
 h4 {
-    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     color: #49944B;
 }
 .form1 button {
