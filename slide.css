@@ -56,3 +56,52 @@
 .carruselmain img {
     border-radius: 20px;
 }
+
+
+
+.parrafo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: 
+    max-width: 45%;
+    width: 45%;
+    padding: 20px;
+    
+}
+
+.carruselmain {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.parrafo  {
+   width: 100%;
+   text-align: center;
+   padding: 20px;
+   box-sizing: border-box;
+    z-index: 10;
+    color: #49944B ;
+    
+}
+
+
+.parrafo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+    .parrafo {
+        top: 100px;
+        max-width: 100%;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .carruselmain {
+        flex-direction: column;
+    }   
+}

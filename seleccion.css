@@ -65,3 +65,8 @@ h4 {
        align-items: center;
     }   
 }
+
+.form1 button {
+ margin-top: 20px;
+    gap: 20px;
+}
