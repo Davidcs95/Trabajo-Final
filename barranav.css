@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .Barra {
 
@@ -212,10 +216,10 @@ background-color: aliceblue;
         
 @media (max-width: 768px) {
     .barraone  {
-        display: flex; !important;
+        display: flex; 
         flex-direction: column;
         align-items: center;
-        height: auto; !important;
+        height: auto; 
         padding: 10px;
         min-height: 100px;
     }
@@ -243,7 +247,22 @@ background-color: aliceblue;
         width: 100%;
     }
 
-    
-    
+    @media { 
+        .barraone ul {
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            width: 100%;
+            margin: 0;
+        }
+        .barraone ul li {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom:  15px;
+    }
 
-     
+     @media {
+        }
+     }

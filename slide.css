@@ -107,3 +107,13 @@
         flex-direction: column;
     }   
 }
+
+
+@media (max-width: 768px) {
+    .carrusel {
+        width: 90%;
+        max-width: 90%;
+        height: 300px;
+        margin: 0 auto 20px auto;
+    }
+}

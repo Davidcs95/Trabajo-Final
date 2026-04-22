@@ -32,6 +32,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    gap: 5px;
 }
 
 @media (max-width: 768px) {
@@ -44,4 +45,32 @@
         width: 100%;
         height: auto;
     }
+}
+
+.producto button:hover {
+    background-color: #3e7a3b;
+}
+
+
+@media (max-width: 768px) {
+    .producto1, .producto2, .producto3 {
+        width: 80%;
+        margin-bottom: 40px auto ;
+        text-align: center;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 20px;
+
+    }
+
+}
+.producto button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+
+}
+.producto img {
+    width: 100%;
+    height: 300px;
+
 }
