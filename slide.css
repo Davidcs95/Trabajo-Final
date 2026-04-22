@@ -33,14 +33,14 @@
 
 .carruselmain {
     gap: 20px;
-    padding-top: 200px;
+   
     padding-bottom: 100px;
 }
 .carruselmain {
     background-image: url("imagenes/hUESOS.png");
     background-repeat: repeat;
     background-size: auto;
-    padding-top: 200px;
+    padding-top: 80/*  */px;
 }
 
 
@@ -54,7 +54,7 @@
 
 
 .carruselmain img {
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 
@@ -92,6 +92,8 @@
 .parrafo h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-size: 25px;
+    padding-bottom: 80px;
 }
 @media (max-width: 768px) {
     .parrafo {
